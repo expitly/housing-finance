@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        id:
+          new_generator_mappings: false
+  h2:
+    console:
+      enabled: true
+
+jwt:
+  secret: kakaoPaySecret
+  expiration: 7200000
+  header: Authorization
+
+logging:
+  level:
+    root: ERROR
