@@ -335,7 +335,7 @@ curl -X GET \
 
 특정 은행의 지원금액 평균 중에서 가장 작은 금액과 큰 금액을 출력하는 API 개발
 
-ex) 외환은행의 경우, 은행코드가 "KEB" 이므로 `/api/v1/banks/KEB/supplies/`로 조회
+ex) 외환은행의 경우, 은행코드가 "KEB" 이므로 `/api/v1/banks/KEB/supplies/avg/min-max`로 조회
 
 **URL** : `/api/v1/banks/:bankCode/supplies/avg/min-max`
 
